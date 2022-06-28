@@ -10,9 +10,9 @@ const Films = ({films}) => {
     });
 
     return (
-        <>
+        <ul>
             {filmNodes}
-        </>
+        </ul>
     );
 
 };

@@ -10,6 +10,10 @@ a {
     color: wheat;
 }
 
+ul {
+    list-style: square;
+}
+
 hr {
     border: 0;
     height: 2px;
