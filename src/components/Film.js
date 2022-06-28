@@ -8,5 +8,4 @@ const Film = ({name, url}) => {
     )
 }
 
-
 export default Film;
