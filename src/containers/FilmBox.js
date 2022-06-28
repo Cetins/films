@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import Films from "../components/Films";
 
 const FilmBox = () => {
     const [films, setFilms] = useState(
@@ -35,7 +36,7 @@ const FilmBox = () => {
         <>
             <h1>Upcoming Film Releases for UK</h1>
             <hr></hr>
-            
+            <Films></Films>
         </>
     )
 }
