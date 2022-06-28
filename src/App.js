@@ -1,9 +1,10 @@
-
+import React from 'react';
 import './App.css';
+import FilmBox from './containers/FilmBox';
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <FilmBox/>
   );
 }
 
