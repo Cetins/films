@@ -30,6 +30,14 @@ const FilmBox = () => {
             }
         ]
     )
+
+    return (
+        <>
+            <h1>Upcoming Film Releases for UK</h1>
+            <hr></hr>
+            
+        </>
+    )
 }
 
 export default FilmBox;
