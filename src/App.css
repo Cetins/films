@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(59, 59, 59);
+    color: wheat;
+    margin: 10px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: wheat;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background: wheat;
+}
+
+.container {
+    border: solid 2px wheat;
+    padding: 10px;
+}
+
+.link {
+    display: block;
+    background-color: wheat;
+    padding: 5px;
+}
+
+.link>h3>a {
+    color: rgb(59, 59, 59);
+}

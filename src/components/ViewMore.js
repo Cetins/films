@@ -5,9 +5,9 @@ const ViewMore = () => {
     const text = "View more upcoming releases >>"
 
     return (
-        <>
+        <div className="link">
             <h3><a href={link}>{text}</a></h3>
-        </>
+        </div>
     );
 };
 

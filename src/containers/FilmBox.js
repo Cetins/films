@@ -31,16 +31,17 @@ const FilmBox = () => {
                 url: "https://www.imdb.com/title/tt4154664/?ref_=rlm"
             }
         ]
-    )
+    );
 
     return (
-        <>
+        <div className="container">
             <h1>Upcoming Film Releases for UK</h1>
             <hr></hr>
             <Films films={films}/>
+            <hr></hr>
             <ViewMore/>
-        </>
-    )
-}
+        </div>
+    );
+};
 
 export default FilmBox;
